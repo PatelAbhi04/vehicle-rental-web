@@ -1,0 +1,22 @@
+.profile {
+  /* flex: 4; */
+  /* width: 100%; */
+  display: block;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  margin-top: 10px;
+}
+
+.adminimg {
+  margin: 20px 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
