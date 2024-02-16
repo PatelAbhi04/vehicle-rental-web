@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const url = "mongodb://localhost:27017/vehicle-rental";
+const url = "mongodb+srv://abhinpatel11:abhipatel11@cluster0.e427izz.mongodb.net/vehicle-rental-app";
 
 mongoose
   .connect(url, { 
