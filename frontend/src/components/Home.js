@@ -29,7 +29,7 @@ function Home() {
       <div className="d-flex flex-column h-100">
       <footer className="footer mt-auto py-3">
   <div className="container">
-    © Akshar Bhalodia and Parth Dedaniya
+    © Abhi Patel && Dev Patel
   </div>
 </footer>
 </div>

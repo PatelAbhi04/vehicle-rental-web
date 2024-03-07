@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
-import vehiclephoto from "../image/vehicleimg.jpg";
+import vehiclephoto from "../image/addvehicle.png";
 
 const AddVehicle = () => {
   const navigate = useNavigate();
@@ -119,7 +119,7 @@ const AddVehicle = () => {
         <div className="container mt-5">
           <div className="addvehicle-content">
             <div className="addvehicle-form">
-              <h2 className="addvehicle-title">Add Vehicle</h2>
+              <h2 className="addvehicle-title">Add your Vehicle</h2>
               <div className="row">
                 <div className="addvehiclewhole">
                 {/* <div className="col-6"> */}
@@ -246,7 +246,7 @@ const AddVehicle = () => {
                     <div className="row">
                       <div className="form-group">
                         <label className="col-6" htmlFor="color">
-                          Vehicle color:
+                          Vehicle Color:
                         </label>
                         <input
                           type="text"
@@ -262,7 +262,7 @@ const AddVehicle = () => {
                     <div className="row">
                       <div className="form-group">
                         <label className="col-6" htmlFor="average">
-                          Vehicle average:
+                          Vehicle Average:
                         </label>
                         <input
                           type="number"
@@ -294,7 +294,7 @@ const AddVehicle = () => {
                     <div className="row">
                       <div className="form-group">
                         <label className="col-6" htmlFor="capacity">
-                          Vehicle capacity:
+                          Vehicle Capacity:
                         </label>
                         <input
                           type="number"
@@ -310,7 +310,7 @@ const AddVehicle = () => {
                     <div className="row">
                       <div className="form-group">
                         <label className="col-6" htmlFor="regno">
-                          Vehicle number plate:
+                          Vehicle Number Plate:
                         </label>
                         <input
                           type="text"

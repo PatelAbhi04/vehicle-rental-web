@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import { NavLink } from "react-router-dom";
 import { UserContext } from "../App";
+
 function Navbar() {
   const { state, dispatch } = useContext(UserContext);
   let userinfo = localStorage.getItem("jwtoken");
@@ -61,7 +62,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container-fluid">
           <NavLink className="navbar-brand" to="/">
-            Rental
+           <h1>Vehicle</h1> 
           </NavLink>
           <button
             className="navbar-toggler"

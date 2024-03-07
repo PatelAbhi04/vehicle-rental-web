@@ -1,7 +1,7 @@
 body {
   color: #1a202c;
   text-align: left;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.1) 100%), url("./image/25636708.jpg");
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.1) 100%), url("./image/mainbackground1.jpg");
   background-color: #1c293c;
   background-repeat: no-repeat;
   background-position: center;
@@ -29,23 +29,23 @@ body {
   backdrop-filter: blur(5px);
 }
 .navbar-brand {
-  color: #f5aa42 !important;
+  color: #190c3b !important;
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
 }
 .nav-item > a {
-  color:  #f5aa42 !important;
+  color: #190c3b !important;
   font-size: 1.2rem;
 }
 
 .greet{
- color: #03c2fc;
+ color: #e9a963;
  font-size: 4rem;
  margin-bottom: 20px;
  font-weight: bolder;
 }
 .homeinfo{
-  color:#a742f5;
+  color:#0d1fa6;
   font-size: 1.5rem;
   margin: 0;
   font-weight: 900;
@@ -67,14 +67,14 @@ body {
   /* -webkit-box-shadow: 3px 3px 10px 3px #dda15e;
   -moz-box-shadow: 3px 3px 10px 3px #dda15e;
   box-shadow: 3px 3px 10px 3px #dda15e; */
-  background-color: #dda15e;
+  background-color: #acf1ef;
   text-align: center;
   padding-bottom: 20px;
   border-radius: 20px;
 }
 
 .registration-form > .form-group > label {
-  color: #283618;
+  color: #111909;
   padding-right: 20px;
 }
 /* .cityicon {
@@ -130,16 +130,16 @@ input:focus {
 .form-submit {
   height: 40px;
   width: 80px;
-  color: white;
+  color: rgb(45, 171, 217);
   border-radius: 5px;
   border: none;
-  background-color: #283618;
+  background-color: #0f1509;
   margin-bottom: 10px;
   margin-top: 20px;
 }
 
 .signup-form > a {
-  color: #283618;
+  color: #191d14;
 }
 
 #login {
@@ -157,7 +157,7 @@ input:focus {
   /* -webkit-box-shadow: 3px 3px 10px 3px #dda15e;
   -moz-box-shadow: 3px 3px 10px 3px #dda15e;
   box-shadow: 3px 3px 10px 3px #dda15e; */
-  background-color: #dda15e;
+  background-color: #acf1ef;
   text-align: center;
   padding-bottom: 20px;
   border-radius: 20px;
@@ -212,7 +212,7 @@ input:focus {
 } */
 /* From cssbuttons.io by @adamgiebl */
 .Add-button {
-  background: #FBCA1F;
+  background: #cbc5b2;
   font-family: inherit;
   padding: 0.6em 1.3em;
   font-weight: 900;
@@ -241,7 +241,7 @@ input:focus {
   margin-top: auto;
 }
 .Book-button {
-  background: #fb1f1f;
+  background: #8bd426;
   font-family: inherit;
   padding: 0.6em 1.3em;
   font-weight: 900;
@@ -267,7 +267,7 @@ input:focus {
   /* -webkit-box-shadow: 3px 3px 10px 3px #dda15e;
   -moz-box-shadow: 3px 3px 10px 3px #dda15e;
   box-shadow: 3px 3px 10px 3px #dda15e; */
-  background-color: #dda15e;
+  background-color: #acf1ef;
   /* margin-bottom: 60px; */
   border-radius: 20px;
 
@@ -351,7 +351,7 @@ input:focus {
 }
 
 .vehiclecard .card {
-  background-color: white;
+  background-color: rgb(188, 232, 245);
   border-radius: 3px;
   width: 20%; 
   height: auto;
@@ -461,7 +461,7 @@ input:focus {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #fbfdfe;
   background-clip: border-box;
   border: 0 solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -490,7 +490,7 @@ input:focus {
 }
 
 .bg-gray-300 {
-  background-color: #e2e8f0;
+  background-color: #e2ebf0;
 }
 .h-100 {
   height: 100% !important;
@@ -505,7 +505,7 @@ input:focus {
 }
 
 .uservehiclecard .card {
-  background-color: white;
+  background-color: rgb(249, 247, 247);
   border-radius: 3px;
   width: 250px;
   padding: 20px;
@@ -877,8 +877,8 @@ input:focus {
   height: 500px;
   font-size: 2.5rem;
   font-weight: bold;
-  color: yellow;
-  opacity: 60%;
+  color: rgb(246, 16, 16);
+  opacity: 90%;
 }
 
 /* booking details */
@@ -892,8 +892,8 @@ input:focus {
   text-align: center;
   font-size: 2.5rem;
   font-weight: bold;
-  color: yellow;
-  opacity: 60%;
+  color: rgb(37, 5, 106);
+  opacity: 100%;
   margin-bottom: 1%;
 }
 
@@ -1090,6 +1090,9 @@ width: 35vw;
 /* .bookedvehicledetail .ownerinfo {
   -webkit-transition: all 4s ease;
   transition: all 4s ease;
+  -moz-transition: all 4s ease;
+  -ms-transition: all 4s ease;
+  -o-transition: all 4s ease;
 }
 
 .bookedvehicledetail:hover .ownerinfo {
@@ -1109,14 +1112,14 @@ width: 35vw;
   text-align: center;
   margin-top: 10%;
   margin-bottom: 50px;
-  color: #f5aa42;
+  color: #7b12cc;
   font-weight: bolder;
 }
 
 .successcontent {
   text-align: center;
   font-size: 1.5rem;
-  color: #f85f73;
+  color: #6b169c;
   font-weight: bolder;
 }
 
@@ -1335,8 +1338,8 @@ width: 35vw;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #f5aa42;
-  color: #1c293c;
+  background-color: #18104d;
+  color: #dde5f0;
   font-weight: bold;
   text-align: center;
 }
